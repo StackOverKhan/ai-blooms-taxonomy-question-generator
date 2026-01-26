@@ -2,20 +2,17 @@ import streamlit as st
 import google.generativeai as genai
 import os
 
-# ---------------- PAGE CONFIG ----------------
 st.set_page_config(
     page_title="Bloom’s Taxonomy QPG",
     page_icon="📘",
     layout="centered"
 )
 
-# ---------------- API CONFIG ----------------
-# Set your API key as environment variable before running:
-# setx GOOGLE_API_KEY "your_api_key_here"
-
-genai.configure(api_key=os.getenv("AIzaSyBQXjsClH8Dq4AwXq-79kNOQEP3QMaUKKY"))
+# ✅ ONLY THIS LINE — NOTHING ELSE
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 model = genai.GenerativeModel("gemini-2.5-flash-lite")
+
 
 # ---------------- UI HEADER ----------------
 st.markdown(
