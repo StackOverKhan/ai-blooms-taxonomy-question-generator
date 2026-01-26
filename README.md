@@ -1,44 +1,41 @@
 # AI-Powered Bloom’s Taxonomy Question Generator
 
-## Overview
-This project is an AI-powered web application that generates exam questions aligned with Bloom’s Taxonomy cognitive levels. It helps educators create outcome-oriented and pedagogically sound assessments instead of memory-based questions.
+## 🚀 Overview
+An AI-powered web application that generates exam questions aligned with Bloom’s Taxonomy cognitive levels.  
+It helps educators design outcome-oriented, higher-quality assessments instead of memory-based questions.
 
-The system allows users to select a subject, topic, and Bloom’s level, and instantly generates relevant exam questions using Google Gemini AI.
+## 🎯 Features
+- Subject and topic-based question generation
+- Bloom’s Taxonomy cognitive level selection
+- Outcome-oriented exam questions
+- Real-time AI generation using Google Gemini
+- Clean and intuitive web interface
 
----
+## 🛠️ Tech Stack
+- Python 3.11
+- Streamlit
+- Google Gemini API
 
-## Features
-- Subject and topic-based question generation  
-- Bloom’s Taxonomy cognitive level selection  
-- Outcome-oriented assessment design  
-- Real-time AI-generated exam questions  
-- Simple and intuitive web interface  
+## 🤖 Google Technologies Used
+- Google Gemini (Flash / Lite) for content generation
 
----
+## ⚙️ How It Works
+1. User enters subject and topic
+2. User selects Bloom’s Taxonomy level
+3. Request is sent to Gemini AI
+4. AI generates 5 outcome-based questions
+5. Questions are displayed instantly
 
-## Technologies Used
-- **Python 3.11**
-- **Streamlit** – Web application framework
-- **Google Gemini API** – AI-powered question generation
-- **HTML/CSS (via Streamlit)**
-
----
-
-## Google Technologies
-- **Google Gemini (Gemini 1.5 Flash / Lite)** for real-time content generation
-
----
-
-## How It Works
-1. User enters subject and topic  
-2. User selects Bloom’s Taxonomy level  
-3. Request is sent to Google Gemini AI  
-4. AI generates outcome-based exam questions  
-5. Questions are displayed instantly  
-
----
-
-## Installation & Run
+## ▶️ Run Locally
 ```bash
 pip install streamlit google-generativeai
+setx GEMINI_API_KEY "your_api_key_here"
 py -3.11 -m streamlit run app.py
+
+```
+## 🔮 Future Enhancements
+- Answer generation toggle
+- MCQ / Long / Short answer modes
+- Export questions to PDF / DOC
+- Question bank integration
+- CO–PO mapping for academic assessment
