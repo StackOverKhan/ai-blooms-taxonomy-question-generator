@@ -11,7 +11,7 @@ Instead of relying on memory-based or repetitive questions, this system leverage
 Creating quality exam questions that align with Bloom’s Taxonomy is:
 - Time-consuming for educators  
 - Often inconsistent across subjects  
-- Prone to focusing only on recall-based learning  
+- Prone to focusing only on recall-based learning...  
 
 There is a need for an **intelligent, automated system** that assists educators in generating **pedagogically sound questions** quickly and reliably.
 
